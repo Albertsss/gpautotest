@@ -156,8 +156,11 @@ public class DBTestUseCaseObjectTest {
 
     @Test
     void getTestObjectSet() {
+        SqlConstant.socket.onMessage("methodName|getTestObjectSet", WebSocketTest.session);
+        startTime = System.nanoTime();
         HashSet<DBTestUseCaseObject> dbTestUseCaseObjectHashSet = DBTestUseCaseObject.getTestObjectSet();
 //        dbTestUseCaseObjectHashSet.forEach(description -> System.out.println("It's the " + description.getCharColumn()));
         assertEquals(10, dbTestUseCaseObjectHashSet.size());
+        TestResultUtil.returnTestResult(startTime,status);
     }
 }

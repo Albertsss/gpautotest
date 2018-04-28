@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
- *
+ * 异常处理工具类
  */
 public class ExceptionUtil {
 

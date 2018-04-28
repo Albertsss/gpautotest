@@ -27,6 +27,19 @@ public class QueryOperatorTest {
         SqlConstant.socket.onMessage("className|QueryOperatorTest", WebSocketTest.session);
         setUp();
         freeQuery();
+        addQuery();
+        reduceQuery();
+        multiplyQuery();
+        divideQuery();
+        remainderQuery();
+        powerQuery();
+        equalQuery();
+        notEqualQuery();
+        neQuery();
+        greaterThanQuery();
+        greaterOrEqualQuery();
+        lessThanQuery();
+        lessOrEqualQuery();
         tearDown();
     }
 
@@ -49,7 +62,7 @@ public class QueryOperatorTest {
         SqlConstant.socket.onMessage("methodName|freeQuery", WebSocketTest.session);
         status = "passed";
         startTime = System.nanoTime();
-        String name = "fen";
+        String name = "postgres";
         String verifyNameSQL =  String.format("SELECT d.datname as dbname FROM pg_catalog.pg_database d WHERE d.datname = '%s'", name);
         ResultSet rst = null;
         try {
@@ -63,5 +76,88 @@ public class QueryOperatorTest {
             ExceptionUtil.exceptionPrint(e);
         }
         TestResultUtil.returnTestResult(startTime,status);
+    }
+
+    void queryutil(String methodName,String psql,String expectValue){
+        SqlConstant.socket.onMessage("methodName|"+methodName, WebSocketTest.session);
+        status = "passed";
+        startTime = System.nanoTime();
+        ResultSet rst = null;
+        try {
+            rst = QueryOperator.freeQuery(connection,psql);
+            if (rst.next()) {
+                assertEquals(expectValue,rst.getString(1));
+            }
+            rst.close();
+        } catch (SQLException e) {
+            status = "failed";
+            ExceptionUtil.exceptionPrint(e);
+        }
+        TestResultUtil.returnTestResult(startTime,status);
+    }
+
+    @Test
+    void addQuery(){
+        queryutil("addQuery","select 3+2","5");
+    }
+
+    @Test
+    void reduceQuery(){
+        queryutil("reduceQuery","select 3-2","1");
+    }
+
+    @Test
+    void multiplyQuery(){
+        queryutil("multiplyQuery","select 3*2","6");
+    }
+
+    @Test
+    void divideQuery(){
+        queryutil("divideQuery","select 3/2","1");
+    }
+
+    @Test
+    void remainderQuery(){
+        queryutil("remainderQuery","select 3%2","1");
+    }
+
+    @Test
+    void powerQuery(){
+        queryutil("powerQuery","select 3^2","9");
+    }
+
+    @Test
+    void equalQuery(){
+        queryutil("equalQuery","select 3=2","false");
+    }
+
+    @Test
+    void notEqualQuery(){
+        queryutil("notEqualQuery","select 3!=2","true");
+    }
+
+    @Test
+    void neQuery(){
+        queryutil("neQuery","select 3<>2","true");
+    }
+
+    @Test
+    void greaterThanQuery(){
+        queryutil("greaterThanQuery","select 3>2","true");
+    }
+
+    @Test
+    void greaterOrEqualQuery(){
+        queryutil("greaterOrEqualQuery","select 3>=2","true");
+    }
+
+    @Test
+    void lessThanQuery(){
+        queryutil("lessThanQuery","select 3<2","false");
+    }
+
+    @Test
+    void lessOrEqualQuery(){
+        queryutil("lessOrEqualQuery","select 3<=2","false");
     }
 }

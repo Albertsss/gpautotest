@@ -589,7 +589,7 @@
 <div id="container">
     <div id="header">
         <div class="time" xmlns="" id="totalTime">0 s</div>
-        <h1>test in gp-autotest: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">37 total, </span>
+        <h1>test in gp-autotest: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">56 total, </span>
             <span class="passed" id="passNum">0 passed</span>,&nbsp;<span class="passed" id="errorNum" style="color: red">0 failed</span></strong>
         </h1>
         <div id="treecontrol">
@@ -614,36 +614,6 @@
                 <ul>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="DBRoleOperatorTest-grantPrivilege-Time">0 s</div>
-</em><em class="status" id="DBRoleOperatorTest-grantPrivilege-Status">not tested</em>grantPrivilege()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DBRoleOperatorTest-grantPrivilege-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DBRoleOperatorTest-dropRole-Time">0 s</div>
-</em><em class="status" id="DBRoleOperatorTest-dropRole-Status">not tested</em>dropRole()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DBRoleOperatorTest-dropRole-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DBRoleOperatorTest-revokePrivilege-Time">0 s</div>
-</em><em class="status" id="DBRoleOperatorTest-revokePrivilege-Status">not tested</em>revokePrivilege()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DBRoleOperatorTest-revokePrivilege-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
 <div class="time" id="DBRoleOperatorTest-createRole-Time">0 s</div>
 </em><em class="status" id="DBRoleOperatorTest-createRole-Status">not tested</em>createRole()</span>
                         <ul>
@@ -662,6 +632,36 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBRoleOperatorTest-dropRole-Time">0 s</div>
+</em><em class="status" id="DBRoleOperatorTest-dropRole-Status">not tested</em>dropRole()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBRoleOperatorTest-dropRole-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBRoleOperatorTest-grantPrivilege-Time">0 s</div>
+</em><em class="status" id="DBRoleOperatorTest-grantPrivilege-Status">not tested</em>grantPrivilege()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBRoleOperatorTest-grantPrivilege-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBRoleOperatorTest-revokePrivilege-Time">0 s</div>
+</em><em class="status" id="DBRoleOperatorTest-revokePrivilege-Status">not tested</em>revokePrivilege()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBRoleOperatorTest-revokePrivilege-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
 
                 </ul>
             </li>
@@ -671,26 +671,6 @@
 <div class="time" id="DatabaseOperatorTest-Time">0 s</div>
 </em>DatabaseOperatorTest</span>
                 <ul>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DatabaseOperatorTest-dropDatabase-Time">0 s</div>
-</em><em class="status" id="DatabaseOperatorTest-dropDatabase-Status">not tested</em>dropDatabase()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DatabaseOperatorTest-dropDatabase-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DatabaseOperatorTest-alterDatabaseOwner-Time">0 s</div>
-</em><em class="status" id="DatabaseOperatorTest-alterDatabaseOwner-Status">not tested</em>alterDatabaseOwner()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DatabaseOperatorTest-alterDatabaseOwner-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="level test">
 <span><em class="time">
 <div class="time" id="DatabaseOperatorTest-createDatabase-Time">0 s</div>
@@ -711,6 +691,26 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DatabaseOperatorTest-alterDatabaseOwner-Time">0 s</div>
+</em><em class="status" id="DatabaseOperatorTest-alterDatabaseOwner-Status">not tested</em>alterDatabaseOwner()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DatabaseOperatorTest-alterDatabaseOwner-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DatabaseOperatorTest-dropDatabase-Time">0 s</div>
+</em><em class="status" id="DatabaseOperatorTest-dropDatabase-Status">not tested</em>dropDatabase()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DatabaseOperatorTest-dropDatabase-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
@@ -719,6 +719,46 @@
 <div class="time" id="DBTestUseCaseObjectTest-Time">0 s</div>
 </em>DBTestUseCaseObjectTest</span>
                 <ul>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBTestUseCaseObjectTest-setToDefault-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-setToDefault-Status">not tested</em>setToDefault()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBTestUseCaseObjectTest-setToDefault-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBTestUseCaseObjectTest-testOverrideConstructor-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-testOverrideConstructor-Status">not tested</em>testOverrideConstructor()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBTestUseCaseObjectTest-testOverrideConstructor-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBTestUseCaseObjectTest-setCharColumn-Time">0 ms</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-setCharColumn-Status">not tested</em>setCharColumn()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBTestUseCaseObjectTest-setCharColumn-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="DBTestUseCaseObjectTest-setBigIntColumn-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-setBigIntColumn-Status">not tested</em>setBigIntColumn()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="DBTestUseCaseObjectTest-setBigIntColumn-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="level test">
 <span><em class="time">
 <div class="time" id="DBTestUseCaseObjectTest-setNumericColumn-Time">0 s</div>
@@ -731,11 +771,11 @@
                     </li>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="DBTestUseCaseObjectTest-getTimeColumn-Time">0 s</div>
-</em><em class="status" id="DBTestUseCaseObjectTest-getTimeColumn-Status">not tested</em>getTimeColumn()</span>
+<div class="time" id="DBTestUseCaseObjectTest-setTimeColumn-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-setTimeColumn-Status">not tested</em>setTimeColumn()</span>
                         <ul>
                             <li class="text">
-                                <span class="stdout" id="DBTestUseCaseObjectTest-getTimeColumn-Text"></span>
+                                <span class="stdout" id="DBTestUseCaseObjectTest-setTimeColumn-Text"></span>
                             </li>
                         </ul>
                     </li>
@@ -771,44 +811,25 @@
                     </li>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="DBTestUseCaseObjectTest-setTimeColumn-Time">0 s</div>
-</em><em class="status" id="DBTestUseCaseObjectTest-setTimeColumn-Status">not tested</em>setTimeColumn()</span>
+<div class="time" id="DBTestUseCaseObjectTest-getTimeColumn-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-getTimeColumn-Status">not tested</em>getTimeColumn()</span>
                         <ul>
                             <li class="text">
-                                <span class="stdout" id="DBTestUseCaseObjectTest-setTimeColumn-Text"></span>
+                                <span class="stdout" id="DBTestUseCaseObjectTest-getTimeColumn-Text"></span>
                             </li>
                         </ul>
                     </li>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="DBTestUseCaseObjectTest-setCharColumn-Time">0 ms</div>
-</em><em class="status" id="DBTestUseCaseObjectTest-setCharColumn-Status">not tested</em>setCharColumn()</span>
+<div class="time" id="DBTestUseCaseObjectTest-getTestObjectSet-Time">0 s</div>
+</em><em class="status" id="DBTestUseCaseObjectTest-getTestObjectSet-Status">not tested</em>getTestObjectSet()</span>
                         <ul>
                             <li class="text">
-                                <span class="stdout" id="DBTestUseCaseObjectTest-setCharColumn-Text"></span>
+                                <span class="stdout" id="DBTestUseCaseObjectTest-getTestObjectSet-Text"></span>
                             </li>
                         </ul>
                     </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DBTestUseCaseObjectTest-setBigIntColumn-Time">0 s</div>
-</em><em class="status" id="DBTestUseCaseObjectTest-setBigIntColumn-Status">not tested</em>setBigIntColumn()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DBTestUseCaseObjectTest-setBigIntColumn-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DBTestUseCaseObjectTest-setToDefault-Time">0 s</div>
-</em><em class="status" id="DBTestUseCaseObjectTest-setToDefault-Status">not tested</em>setToDefault()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DBTestUseCaseObjectTest-setToDefault-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
+
                 </ul>
             </li>
 
@@ -817,16 +838,6 @@
 <div class="time" id="DeleteOperatorTest-Time">0 s</div>
 </em>DeleteOperatorTest</span>
                 <ul>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="DeleteOperatorTest-deleteRowData-Time">0 s</div>
-</em><em class="status" id="DeleteOperatorTest-deleteRowData-Status">not tested</em>deleteRowData()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="DeleteOperatorTest-deleteRowData-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="level test">
 <span><em class="time">
 <div class="time" id="DeleteOperatorTest-deleteData-Time">0 s</div>
@@ -845,16 +856,6 @@
 <div class="time" id="InsertOperatorTest-Time">0 s</div>
 </em>InsertOperatorTest</span>
                 <ul>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="InsertOperatorTest-insertRawData-Time">0 s</div>
-</em><em class="status" id="InsertOperatorTest-insertRawData-Status">not tested</em>insertRawData()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="InsertOperatorTest-insertRawData-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="level test">
 <span><em class="time">
 <div class="time" id="InsertOperatorTest-insertData-Time">0 s</div>
@@ -903,21 +904,21 @@
                 <ul>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="PooledConnectionTest-getConnection-Time">0 s</div>
-</em><em class="status" id="PooledConnectionTest-getConnection-Status">not tested</em>getConnection()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="PooledConnectionTest-getConnection-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
 <div class="time" id="PooledConnectionTest-getConnectionPool-Time">0 s</div>
 </em><em class="status" id="PooledConnectionTest-getConnectionPool-Status">not tested</em>getConnectionPool()</span>
                         <ul>
                             <li class="text">
                                 <span class="stdout" id="PooledConnectionTest-getConnectionPool-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="PooledConnectionTest-getConnection-Time">0 s</div>
+</em><em class="status" id="PooledConnectionTest-getConnection-Status">not tested</em>getConnection()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="PooledConnectionTest-getConnection-Text"></span>
                             </li>
                         </ul>
                     </li>
@@ -939,6 +940,136 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-addQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-addQuery-Status">not tested</em>addQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-addQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-reduceQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-reduceQuery-Status">not tested</em>reduceQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-reduceQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-multiplyQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-multiplyQuery-Status">not tested</em>multiplyQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-multiplyQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-divideQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-divideQuery-Status">not tested</em>divideQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-divideQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-remainderQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-remainderQuery-Status">not tested</em>remainderQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-remainderQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-powerQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-powerQuery-Status">not tested</em>powerQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-powerQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-equalQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-equalQuery-Status">not tested</em>equalQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-equalQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-notEqualQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-notEqualQuery-Status">not tested</em>notEqualQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-notEqualQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-neQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-neQuery-Status">not tested</em>neQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-neQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-greaterThanQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-greaterThanQuery-Status">not tested</em>greaterThanQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-greaterThanQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-greaterOrEqualQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-greaterOrEqualQuery-Status">not tested</em>greaterOrEqualQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-greaterOrEqualQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-lessThanQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-lessThanQuery-Status">not tested</em>lessThanQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-lessThanQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="QueryOperatorTest-lessOrEqualQuery-Time">0 s</div>
+</em><em class="status" id="QueryOperatorTest-lessOrEqualQuery-Status">not tested</em>lessOrEqualQuery()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="QueryOperatorTest-lessOrEqualQuery-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
@@ -949,31 +1080,21 @@
                 <ul>
                     <li class="level test">
 <span><em class="time">
-<div class="time" id="SchemaOperatorTest-alterSchemaName-Time">0 s</div>
-</em><em class="status" id="SchemaOperatorTest-alterSchemaName-Status">not tested</em>alterSchemaName()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="SchemaOperatorTest-alterSchemaName-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="SchemaOperatorTest-dropSchema-Time">0 s</div>
-</em><em class="status" id="SchemaOperatorTest-dropSchema-Status">not tested</em>dropSchema()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="SchemaOperatorTest-dropSchema-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
 <div class="time" id="SchemaOperatorTest-createSchema-Time">0 s</div>
 </em><em class="status" id="SchemaOperatorTest-createSchema-Status">not tested</em>createSchema()</span>
                         <ul>
                             <li class="text">
                                 <span class="stdout" id="SchemaOperatorTest-createSchema-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="SchemaOperatorTest-alterSchemaName-Time">0 s</div>
+</em><em class="status" id="SchemaOperatorTest-alterSchemaName-Status">not tested</em>alterSchemaName()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="SchemaOperatorTest-alterSchemaName-Text"></span>
                             </li>
                         </ul>
                     </li>
@@ -987,6 +1108,16 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="SchemaOperatorTest-dropSchema-Time">0 s</div>
+</em><em class="status" id="SchemaOperatorTest-dropSchema-Status">not tested</em>dropSchema()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="SchemaOperatorTest-dropSchema-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
@@ -995,6 +1126,36 @@
 <div class="time" id="TableOperatorTest-Time">0 s</div>
 </em>TableOperatorTest</span>
                 <ul>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="TableOperatorTest-createTable-Time">0 s</div>
+</em><em class="status" id="TableOperatorTest-createTable-Status">not tested</em>createTable()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="TableOperatorTest-createTable-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="TableOperatorTest-truncateTable-Time">0 s</div>
+</em><em class="status" id="TableOperatorTest-truncateTable-Status">not tested</em>truncateTable()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="TableOperatorTest-truncateTable-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="TableOperatorTest-alterTableName-Time">0 s</div>
+</em><em class="status" id="TableOperatorTest-alterTableName-Status">not tested</em>alterTableName()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="TableOperatorTest-alterTableName-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="level test">
 <span><em class="time">
 <div class="time" id="TableOperatorTest-alterTableColumn-Time">0 s</div>
@@ -1012,36 +1173,6 @@
                         <ul>
                             <li class="text">
                                 <span class="stdout" id="TableOperatorTest-dropTable-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="TableOperatorTest-truncateTable-Time">0 s</div>
-</em><em class="status" id="TableOperatorTest-truncateTable-Status">not tested</em>truncateTable()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="TableOperatorTest-truncateTable-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="TableOperatorTest-createTable-Time">0 s</div>
-</em><em class="status" id="TableOperatorTest-createTable-Status">not tested</em>createTable()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="TableOperatorTest-createTable-Text"></span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="level test">
-<span><em class="time">
-<div class="time" id="TableOperatorTest-alterTableName-Time">0 s</div>
-</em><em class="status" id="TableOperatorTest-alterTableName-Status">not tested</em>alterTableName()</span>
-                        <ul>
-                            <li class="text">
-                                <span class="stdout" id="TableOperatorTest-alterTableName-Text"></span>
                             </li>
                         </ul>
                     </li>
@@ -1065,6 +1196,83 @@
                     </li>
                 </ul>
             </li>
+
+            <li class="level top open">
+<span><em class="time">
+<div class="time" id="ViewOperatorTest-Time">0 s</div>
+</em>ViewOperatorTest</span>
+                <ul>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="ViewOperatorTest-createView-Time">0 s</div>
+</em><em class="status" id="ViewOperatorTest-createView-Status">not tested</em>createView()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="ViewOperatorTest-createView-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="ViewOperatorTest-alterView-Time">0 s</div>
+</em><em class="status" id="ViewOperatorTest-alterView-Status">not tested</em>alterView()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="ViewOperatorTest-alterView-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="ViewOperatorTest-dropView-Time">0 s</div>
+</em><em class="status" id="ViewOperatorTest-dropView-Status">not tested</em>dropView()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="ViewOperatorTest-dropView-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="level top open">
+<span><em class="time">
+<div class="time" id="IndexOperatorTest-Time">0 s</div>
+</em>IndexOperatorTest</span>
+                <ul>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="IndexOperatorTest-createIndex-Time">0 s</div>
+</em><em class="status" id="IndexOperatorTest-createIndex-Status">not tested</em>createIndex()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="IndexOperatorTest-createIndex-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="IndexOperatorTest-reindexIndex-Time">0 s</div>
+</em><em class="status" id="IndexOperatorTest-reindexIndex-Status">not tested</em>reindexIndex()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="IndexOperatorTest-reindexIndex-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level test">
+<span><em class="time">
+<div class="time" id="IndexOperatorTest-dropIndex-Time">0 s</div>
+</em><em class="status" id="IndexOperatorTest-dropIndex-Status">not tested</em>dropIndex()</span>
+                        <ul>
+                            <li class="text">
+                                <span class="stdout" id="IndexOperatorTest-dropIndex-Text"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
         </ul>
     </div>
 </div>

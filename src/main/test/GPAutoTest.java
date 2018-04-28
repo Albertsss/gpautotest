@@ -9,10 +9,7 @@ import org.junit.runners.MethodSorters;
 import java.sql.*;
 
 /**
- * @Author: KeHongwei
- * @Description:
- * @Date: Created in 8:48 2018/4/20
- * @Modified By:
+ *
  */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class GPAutoTest {

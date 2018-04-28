@@ -26,9 +26,6 @@ public class DeleteOperatorTest {
         setUp();
         deleteData();
         tearDown();
-        setUp();
-        deleteRowData();
-        tearDown();
         tearDownTestTable();
     }
 
@@ -95,9 +92,6 @@ public class DeleteOperatorTest {
 
     @Test
     void deleteRowData() {
-        SqlConstant.socket.onMessage("methodName|deleteRowData", WebSocketTest.session);
-        status = "passed";
-        startTime = System.nanoTime();
-        TestResultUtil.returnTestResult(startTime,status);
+
     }
 }

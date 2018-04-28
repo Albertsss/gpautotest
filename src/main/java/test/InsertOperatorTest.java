@@ -28,9 +28,6 @@ public class InsertOperatorTest {
         setUp();
         insertData();
         tearDown();
-        setUp();
-        insertRawData();
-        tearDown();
         tearDownTestTable();
     }
 
@@ -96,9 +93,5 @@ public class InsertOperatorTest {
 
     @Test
     void insertRawData() {
-        SqlConstant.socket.onMessage("methodName|insertRawData", WebSocketTest.session);
-        status = "passed";
-        startTime = System.nanoTime();
-        TestResultUtil.returnTestResult(startTime,status);
     }
 }

@@ -69,6 +69,8 @@ public class WebSocketTest {
             new SchemaOperatorTest().startTest();
             new TableOperatorTest().startTest();
             new UpdateOperatorTest().startTest();
+            new ViewOperatorTest().startTest();
+            new IndexOperatorTest().startTest();
             System.out.println("---------------------------------------------------------------------------");
         }else{
             //群发消息

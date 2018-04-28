@@ -2,6 +2,7 @@ package test;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import com.mchange.v2.c3p0.DataSources;
+import utils.SqlConstant;
 
 import java.beans.PropertyVetoException;
 import java.sql.Connection;
@@ -15,9 +16,9 @@ public class PooledConnection {
     private static  PooledConnection instance;
     private static ComboPooledDataSource comboPooledDataSource;
 
-    private String url = "jdbc:pivotal:greenplum://192.168.60.129:5432;DatabaseName=fen";
-    private String user = "fen";
-    private String pwd = "fen";
+    private String url = "jdbc:pivotal:greenplum://"+ SqlConstant.masterIP+":"+SqlConstant.gpPort+";DatabaseName=postgres";
+    private String user = SqlConstant.gpUser;
+    private String pwd = SqlConstant.gpPwd;
 
     static {
         try {

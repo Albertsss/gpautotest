@@ -152,7 +152,7 @@ public class DBRoleOperatorTest {
         TestResultUtil.returnTestResult(startTime,status);
     }
 
-    private String currentDB = "fen";
+    private String currentDB = "postgres";
     private String baseGrantSQL = "GRANT ALL PRIVILEGES ON DATABASE %s TO %s";
     private String grantSQL = String.format(baseGrantSQL, currentDB, rolename);
     private String baseRevokeSQL = "REVOKE ALL PRIVILEGES ON DATABASE %s FROM %s";

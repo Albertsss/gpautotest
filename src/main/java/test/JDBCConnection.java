@@ -1,5 +1,7 @@
 package test;
 
+import utils.SqlConstant;
+
 import java.sql.*;
 
 /**
@@ -9,10 +11,10 @@ import java.sql.*;
  */
 class JDBCConnection
 {
-    private String url = "jdbc:pivotal:greenplum://192.168.60.129:5432;DatabaseName=";
-    private String defaultDB = "fen";
-    private String user = "fen";
-    private String pwd = "fen";
+    private String url = "jdbc:pivotal:greenplum://"+ SqlConstant.masterIP+":"+SqlConstant.gpPort+";DatabaseName=";
+    private String defaultDB = "postgres";
+    private String user = SqlConstant.gpUser;
+    private String pwd = SqlConstant.gpPwd;
     private Connection connection;
 
     static {
